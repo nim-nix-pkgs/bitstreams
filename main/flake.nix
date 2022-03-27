@@ -11,6 +11,7 @@
   inputs.src-bitstreams-main.ref   = "refs/heads/main";
   inputs.src-bitstreams-main.owner = "sealmove";
   inputs.src-bitstreams-main.repo  = "bitstreams";
+  inputs.src-bitstreams-main.dir   = "";
   inputs.src-bitstreams-main.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
